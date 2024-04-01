@@ -1,0 +1,31 @@
+.container {
+
+    display: flex;
+    margin: auto;
+    margin-top: 40vh;
+    width: 40vw;
+}
+
+.rect {
+    height: 1vw;
+    width: 1vw;
+    background-color: black;
+    position: relative;
+    transform: rotate(45deg);
+    left: -2.8vw;
+    bottom: -4vh;
+}
+
+
+.hoverElement {
+
+    background-color: black;
+    color: #FFF;
+    padding: 2vw;
+    position: relative;
+    top: -4vw;
+    margin-left: 2vw;
+    border: 5px solid black;
+    border-radius: 2vw;
+
+}
